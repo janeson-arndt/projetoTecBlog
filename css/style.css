@@ -1,0 +1,109 @@
+/*Limpar as formatações padrão - seletor * quer dizer todos, dependendo do navegador os 
+valores padrão de margens de um h1 por exemplo podem ser interpretados de forma
+diferente no chrome com relação ao IE, então para ter um visão igual para todos
+é interessante limpar as configurações*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f3f3f3;
+}
+
+#navegacao {
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width:100%;
+    top: 0; 
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+
+}
+
+#areaPrincipal {
+    width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0;
+}
+
+#logo {
+    float: left;
+}
+
+#postagem {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #b9c941
+}
+
+/*Formatação do menu */
+
+/* links não visitados */
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:link {
+    color: #838383;
+}
+
+/* links visitados */
+
+a:visited {
+    color: #838383;
+}
+
+/* links hover */
+a:hover{
+    color: #fff;
+    background: #b9c941;
+}
+
+
+/* links active, ao clicar muda de cor */
+a:active {
+    color: #535353;
+}
+
+.verde {
+    color: #b9c941;
+}
+
+.dataPostagem {
+    font-size: 14PX;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.imgPostagem {
+   float: left; 
+   margin: 0 10px 5px 0;
+}
+
+.postado {
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10PX;
+
+}
